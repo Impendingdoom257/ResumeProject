@@ -1,3 +1,7 @@
-Banner{
-    border: 15px;
+.banner{
+    anchor-name: banner;
+    width: fit-content;
+    background-color:grey;
+    padding: 10px;
+    font-size: 1rem;
 }
