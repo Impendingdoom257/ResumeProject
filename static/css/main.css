@@ -1,7 +1,30 @@
-.banner{
-    anchor-name: banner;
-    width: fit-content;
-    background-color:grey;
-    padding: 10px;
-    font-size: 1rem;
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    background-color: dimgray;
+    margin-top: 120px;
+    border-spacing: 100px;
+}
+ th{
+    font-size: 50px;
+ }
+th:hover{
+    background-color: lightgrey;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+
+a:active{
+    color: black;
 }
