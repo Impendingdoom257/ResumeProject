@@ -1,4 +1,4 @@
-table{
+table.banner{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,10 +7,10 @@ table{
     margin-top: 120px;
     border-spacing: 100px;
 }
- th{
+th.banner {
     font-size: 50px;
  }
-th:hover{
+th:hover.banner {
     background-color: lightgrey;
 }
 
@@ -24,7 +24,16 @@ a:visited{
     color: black;
 }
 
-
 a:active{
     color: black;
+}
+
+.bio{
+    display:flex;
+    justify-content: center;
+    margin: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 75px;
+    background-color:rgb(136, 136, 126);
 }
