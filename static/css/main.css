@@ -37,3 +37,22 @@ a:active{
     font-size: 75px;
     background-color:rgb(136, 136, 126);
 }
+
+table.ContactTable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+    border-spacing: 10px;
+    background-color: grey;
+}
+
+
+tr.ContactTable{
+    width: 10%;
+    font-size: 15px;
+    text-wrap: nowrap;
+}
