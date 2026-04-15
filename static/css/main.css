@@ -56,3 +56,14 @@ tr.ContactTable{
     font-size: 15px;
     text-wrap: nowrap;
 }
+
+table.resume{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+tr.resume{
+    text-align: center;
+}
